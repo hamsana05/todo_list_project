@@ -5,7 +5,7 @@ from todo_stack import ToDoStack
 if 'todo' not in st.session_state:
     st.session_state.todo = ToDoStack()
 
-st.title("📝 Simple To-Do List with Undo/Redo")
+st.title("📝 Simple To-Do List hamsana with Undo/Redo")
 
 task_input = st.text_input("Enter a task")
 if st.button("Add Task") and task_input:
